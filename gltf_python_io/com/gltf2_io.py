@@ -26,7 +26,7 @@
 import sys
 import traceback
 
-from ...io.com import gltf2_io_debug
+from ..com import gltf2_io_debug
 
 
 def from_int(x):
