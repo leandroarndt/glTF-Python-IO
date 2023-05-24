@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gltf_python_io"
+version = "0.0.1"
+authors = [
+  { name="The Khronos Group Inc." },
+  { name="Julien Duroure"},
+  { name="Scurest"},
+  { name="UX3D GmbH"},
+  { name="Sketchfab"},
+]
+description = "Fork from Khronos glTF Blender importer to use in general purpose Python projects"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/leandroarndt/glTF-Python-IO"
+"Bug Tracker" = "https://github.com/leandroarndt/glTF-Python-IO/issues"
